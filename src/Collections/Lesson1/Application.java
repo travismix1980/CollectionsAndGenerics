@@ -1,11 +1,11 @@
-package Collections;
+package Collections.Lesson1;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
 
 public class Application {
     public static void main(String[] args) {
-        ArrayList<String> words = new ArrayList<String>();
+        ArrayList<String> words = new ArrayList<>();
         words.add("hello");
         words.add("there");
 
@@ -14,7 +14,7 @@ public class Application {
         System.out.println(item1);
         System.out.println(item2);
 
-        LinkedList<Integer> numbers = new LinkedList<Integer>(); // no primitive types
+        LinkedList<Integer> numbers = new LinkedList<>(); // no primitive types
         numbers.add(100);
         numbers.add(200);
         numbers.add(45);
